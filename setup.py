@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Quenser",
-    version="0.0.3",
+    name="QuenserLibrary",
+    version="0.0.4",
     author="Tassana Khrueawan",
     author_email="tassana.khr@gmail.com",
     description="A custom library for Robot Framework that allows you to say hello",
@@ -20,3 +20,6 @@ setup(
     ],
     python_requires='>=3.6',
 )
+
+
+
