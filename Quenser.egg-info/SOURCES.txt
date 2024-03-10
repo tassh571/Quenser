@@ -8,4 +8,5 @@ Quenser/main_module.py
 Quenser.egg-info/PKG-INFO
 Quenser.egg-info/SOURCES.txt
 Quenser.egg-info/dependency_links.txt
+Quenser.egg-info/requires.txt
 Quenser.egg-info/top_level.txt

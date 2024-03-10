@@ -1,4 +1,7 @@
 # example_module.py
+from robot.api.deco import keyword
 
-def say_hello(name="World"):
-    return f"Hello, {name}!"
+class Quenser:
+    @keyword("Say Hello")
+    def say_hello(self, name="World"):
+        return f"Hello, {name}!"
