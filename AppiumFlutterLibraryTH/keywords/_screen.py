@@ -1,5 +1,5 @@
-from AppiumFlutterLibrary.finder import ElementFinder
-from AppiumFlutterLibrary.keywords.keywordgroup import KeywordGroup
+from AppiumFlutterLibraryTH.finder import ElementFinder
+from AppiumFlutterLibraryTH.keywords.keywordgroup import KeywordGroup
 import os
 import robot
 
@@ -9,8 +9,7 @@ class _ScreenKeywords(KeywordGroup):
         self._screenshot_index = 0
 
     def scroll_to_element(self, locator):
-        """ Uses FlutterDriver.scrollIntoView() to scroll until element is visible.
-        """
+        """ Hello world Test library """
         application = self._current_application()
         element = self._element_finder.find(application, locator)
         self._info(element)
