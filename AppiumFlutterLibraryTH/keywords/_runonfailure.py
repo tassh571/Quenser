@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from robot.libraries import BuiltIn
-from AppiumFlutterLibrary.keywords.keywordgroup import KeywordGroup
+from AppiumFlutterLibraryTH.keywords.keywordgroup import KeywordGroup
 
 BUILTIN = BuiltIn.BuiltIn()
 

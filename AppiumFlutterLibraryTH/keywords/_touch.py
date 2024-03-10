@@ -1,5 +1,5 @@
 from .keywordgroup import  KeywordGroup
-from AppiumFlutterLibrary.finder import ElementFinder
+from AppiumFlutterLibraryTH.finder import ElementFinder
 
 class _TouchKeywords(KeywordGroup):
     def init(self):

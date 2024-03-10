@@ -1,6 +1,6 @@
 import robot
-from AppiumFlutterLibrary.keywords.keywordgroup import KeywordGroup
-from AppiumFlutterLibrary.finder import ElementFinder
+from AppiumFlutterLibraryTH.keywords.keywordgroup import KeywordGroup
+from AppiumFlutterLibraryTH.finder import ElementFinder
 
 
 class _WaintingKeywords(KeywordGroup):

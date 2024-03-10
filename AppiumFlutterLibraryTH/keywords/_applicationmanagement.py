@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import robot
-from AppiumFlutterLibrary.utils import ApplicationCache
-from AppiumFlutterLibrary.keywords.keywordgroup import KeywordGroup
+from AppiumFlutterLibraryTH.utils import ApplicationCache
+from AppiumFlutterLibraryTH.keywords.keywordgroup import KeywordGroup
 from appium.webdriver import Remote
 
 class _ApplicationManagementKeyWords(KeywordGroup):

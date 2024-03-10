@@ -1,6 +1,6 @@
 from appium.webdriver.webelement import WebElement
 from .keywordgroup import KeywordGroup
-from AppiumFlutterLibrary.finder import ElementFinder
+from AppiumFlutterLibraryTH.finder import ElementFinder
 from appium_flutter_finder import FlutterElement
 from typing import Optional
 
