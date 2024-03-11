@@ -4,8 +4,7 @@ import os
 from robot.libraries.BuiltIn import BuiltIn
 
 class ScreenshotKeywords:
-    @keyword("Capture Screenshot")
-    def capture_screenshot(self, filename=None):
+    def CaptureScreenshot(self, filename=None):
         """จับภาพหน้าจอปัจจุบันและฝังลงใน log
 
         ถ้าไม่กำหนด `filename`, ภาพจะถูกฝังเป็น Base64 ลงใน log.html

@@ -4,7 +4,6 @@
 from robot.api.deco import keyword
 
 class QuenserLibrary:
-    @keyword("Print Test")
-    def print_test(self):
+    def PrintTEST(self):
         """ พิมพ์ข้อความ 'Hello, world!' ลงในคอนโซล """
         print("Hello, world!")
