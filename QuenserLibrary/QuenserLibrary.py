@@ -1,7 +1,10 @@
 from robot.api.deco import keyword
 
 class QuenserLibrary:
-    @keyword(name="Quenser", doc="Says hello to the world.")
-    def quenser_keyword(self):
-        """ This keyword prints 'Hello, world!' to the console. """
-        print("Hello, world!")
+    def PrintTEST(self):
+        """Hello World
+
+        If the element does not support text input an error
+        will be raised.
+        """
+        print("Hello World test")
