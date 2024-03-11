@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="QuenserLibrary",
-    version="0.0.4",
+    version="0.0.5",
     author="Tassana Khrueawan",
     author_email="tassana.khr@gmail.com",
-    description="A custom library for Robot Framework that allows you to say hello",
+    description="Test Library for QuenserLibrary",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     url="https://github.com/tassh571/Quenser.git",
