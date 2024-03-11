@@ -1,10 +1,10 @@
+# -*- coding: utf-8 -*-
+#QuenserLibrary.py
+
 from robot.api.deco import keyword
 
 class QuenserLibrary:
-    def PrintTEST(self):
-        """Hello World
-
-        If the element does not support text input an error
-        will be raised.
-        """
-        print("Hello World test")
+    @keyword("Print Test")
+    def print_test(self):
+        """ พิมพ์ข้อความ 'Hello, world!' ลงในคอนโซล """
+        print("Hello, world!")
