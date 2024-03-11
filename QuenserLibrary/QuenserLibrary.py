@@ -7,7 +7,7 @@ from .ScreenshotKeywords import ScreenshotKeywords
 class QuenserLibrary(ScreenshotKeywords):
     def PrintTEST(self):
         """ พิมพ์ข้อความ 'Hello, world!' ลงในคอนโซล แบบไม่ได้แอดคีย์ """
-        print("Hello, world!")
+        print("Hello, world! เทสภาษาไทย")
 
     @keyword("Hello world")
     def Hello(self):
