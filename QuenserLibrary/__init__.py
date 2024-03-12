@@ -1,3 +1,8 @@
 # __init__.py
 from .QuenserLibrary import QuenserLibrary
-from .ScreenshotKeywords import ScreenshotKeywords
+from .QuenserLibrary1 import QuenserLibrary1
+
+__all__ = [
+            'QuenserLibrary', 
+            'QuenserLibrary1'
+           ]
