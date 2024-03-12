@@ -7,7 +7,7 @@ from robot.api.deco import keyword
 class asdasd:
     def asddsa(self):
         """ พิมพ์ข้อความ 'Hello, world!' ลงในคอนโซล แบบไม่ได้แอดคีย์ """
-        print("Hello, world! เทสภาษาไทย")
+        print("Hello, world! เทสภาษาไทยaaaaaaaa")
 
     @keyword("ewqeqw")
     def dsa(self):

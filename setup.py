@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="QuenserLibrary",
-    version="0.1.4",
+    version="0.1.5",
     author="Tassana Khrueawan",
     author_email="tassana.khr@gmail.com",
     description="Test Library for QuenserLibrary",

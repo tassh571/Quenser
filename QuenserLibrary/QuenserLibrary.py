@@ -9,7 +9,7 @@ from .asdasd import asdasd
 class QuenserLibrary(TineLibrary, asdasd):
     def PrintTEST(self):
         """ พิมพ์ข้อความ 'Hello, world!' ลงในคอนโซล แบบไม่ได้แอดคีย์ """
-        print("Hello, world! เทสภาษาไทย")
+        print("Hello, world! เทสภาษาไทยfdsafadsfsadfdsafdsa")
 
 
     @keyword("Hello world")
